@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="js/toggle.js"></script>
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+</head>
+<body>
+<header id="header">
+  <div class="container">
+    <div class="flex-container">
+      <div>
+        <h1>Social Media Dashboard</h1> 
+        <span class="tagline">Total Followers: 23,004</span>
+      </div>
+      <div class="mobile-div">
+        <div><p>Dark Mode</p></div>
+        <div><label class="switch">
+          <input type="checkbox" onclick="myFunction()" checked>
+          <span class="slider round"></span>
+        </label></div>
+      </div>
+    </div>
+  </div>
+</header>
+  
+
+  
+<section>
+  <div class="container">
+    <div class="flex-container">
+      <div id="facebook" class="card center-text">
+        <div class="icon-user">
+          <img src="/images/icon-facebook.svg" alt="Facebook Icon">
+          <h4 class="username">@nathanf</h4>
+        </div> 
+        <p class="total-count">1987</p>
+        <p class="follower-subs">Followers</p>
+        <span class="day-count">
+          <img src="/images/icon-up.svg" alt="Up Arrow Icon"> 12 Today
+        </span> 
+      </div>
+      <div id="twitter" class="card center-text">
+        <div class="icon-user">
+          <img src="/images/icon-twitter.svg" alt="Twitter Icon">
+          <h4 class="username">@nathanf</h4>
+        </div> 
+        <p class="total-count">1044</p>
+        <p class="follower-subs">Followers</p>
+        <span class="day-count">
+          <img src="/images/icon-up.svg" alt="Up Arrow Icon"> 99 Today
+        </span>
+      </div>
+      <div id="instagram" class="card center-text">
+        <div class="icon-user">
+          <img src="/images/icon-instagram.svg" alt="Instagram Icon">
+          <h4 class="username">@realnathanf</h4>
+        </div> 
+        <p class="total-count">11k</p>
+        <p class="follower-subs">Followers</p>
+        <span class="day-count">
+          <img src="/images/icon-up.svg" alt="Up Arrow Icon"> 1099 Today
+        </span>
+      </div>
+      <div id="youtube" class="card center-text">
+        <div class="icon-user">
+          <img src="/images/icon-youtube.svg" alt="YouTube Icon">
+          <h4 class="username">Nathan F.</h4>
+        </div> 
+        <p class="total-count">8239</p>
+        <p class="follower-subs">Subscribers</p>
+        <span class="day-count day-count-red">
+          <img src="/images/icon-down.svg" alt="Down Arrow Icon"> 144 Today
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+  
+
+<section>
+  <div class="container">
+    <h2>Overview - Today</h2>
+    <div class="flex-container">
+        <div class="overview-card">
+          <div class="overview-heading-icon flex">
+            <span class="overview-heading">Page Views</span> 
+            <img src="/images/icon-facebook.svg" alt="Facebook Icon">
+          </div>
+          <div class="count-percentage flex">
+           <span class="count">87</span>
+           <span class="percentage">
+            <img src="/images/icon-up.svg" alt="Up Arrow Icon"> 3%</span> 
+          </div> 
+          
+        </div>
+        <div class="overview-card">
+          <div class="overview-heading-icon flex">
+            <span class="overview-heading">Likes</span>
+            <img src="/images/icon-facebook.svg" alt="Facebook Icon">
+          </div>
+          <div class="count-percentage flex">
+            <span class="count">52</span>
+            <span class="percentage day-count-red">
+              <img src="/images/icon-down.svg" alt="Down Arrow Icon"> 2%</span>
+          </div>
+        </div>
+        <div class="overview-card">
+          <div class="overview-heading-icon flex">
+            <span class="overview-heading">Likes</span>
+            <img src="/images/icon-instagram.svg" alt="Instagram Icon">
+          </div>
+          <div class="count-percentage flex">
+            <span class="count">5462</span>
+            <span class="percentage">
+              <img src="/images/icon-up.svg" alt="Up Arrow Icon"> 2257%</span>
+          </div>
+          
+          
+        </div>
+        <div class="overview-card">
+          <div class="overview-heading-icon flex">
+            <span class="overview-heading">Profile Views</span>
+            <img src="/images/icon-instagram.svg" alt="Instagram Icon">
+          </div>
+          <div class="count-percentage flex">
+            <span class="count">52k</span>
+            <span class="percentage">
+              <img src="/images/icon-up.svg" alt="Up Arrow Icon"> 1375%</span>
+          </div>
+          
+          
+        </div>
+        <div class="overview-card">
+          <div class="overview-heading-icon flex">
+            <span class="overview-heading">Retweets</span>
+            <img src="/images/icon-twitter.svg" alt="Twitter Icon">
+          </div>
+          <div class="count-percentage flex">
+            <span class="count">117</span>
+            <span class="percentage"> 
+              <img src="/images/icon-up.svg" alt="Up Arrow Icon"> 303%</span>
+          </div>
+          
+          
+        </div>
+        <div class="overview-card">
+          <div class="overview-heading-icon flex">
+            <span class="overview-heading">Likes</span>
+            <img src="/images/icon-twitter.svg" alt="Twitter Icon">
+          </div>
+          <div class="count-percentage flex">
+            <span class="count">507</span>
+            <span class="percentage"> 
+              <img src="/images/icon-up.svg" alt="Up Arrow Icon"> 553%</span>
+          </div>
+        </div>
+
+
+        <div class="overview-card">
+          <div class="overview-heading-icon flex">
+            <span class="overview-heading">Likes</span>
+            <img src="/images/icon-youtube.svg" alt="YouTube Icon">
+          </div>
+          <div class="count-percentage flex">
+            <span class="count">107</span>
+            <span class="percentage day-count-red"> 
+              <img src="/images/icon-down.svg" alt="Down Arrow Icon"> 19%</span>
+          </div>
+        </div>
+
+
+        <div class="overview-card">
+          <div class="overview-heading-icon flex">
+            <span class="overview-heading">Total Views</span>
+            <img src="/images/icon-youtube.svg" alt="YouTube Icon">
+          </div>
+          <div class="count-percentage flex">
+            <span class="count">1407</span>
+            <span class="percentage day-count-red">
+              <img src="/images/icon-down.svg" alt="Down Arrow Icon"> 12%</span>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="http://eliezerdavid.com" target="_blank">Eliezer D.</a>.
+  </div>
+</body>
+</html>

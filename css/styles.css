@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: white;
+  color: #63687e;
+}
+
+.dark-mode {
+  background: #1e202a;
+  color: #8b97c6;
+}
+
+.dark-mode .header-dark-mode {
+  background: #1f212e;
+}
+
+.dark-mode .header-dark-mode .slider:before {
+  background-color: #1f212e;
+}
+
+.dark-mode .header-dark-mode .slider:hover::before {
+  background-color: #333952;
+}
+
+.dark-mode .header-dark-mode .flex-container > :last-child p {
+  color: #8b97c6;
+}
+
+.dark-mode .header-dark-mode h1 {
+  color: white;
+}
+
+.dark-mode section .container h2 {
+  color: white;
+}
+
+.dark-mode section .container .flex-container div p {
+  color: #8b97c6;
+}
+
+.dark-mode section .container .flex-container .card {
+  background-color: #252a41;
+}
+
+.dark-mode section .container .flex-container .card .total-count {
+  color: white;
+}
+
+.dark-mode section .container .flex-container .card:hover {
+  background-color: #333952;
+}
+
+.dark-mode section .container .flex-container .overview-card:hover {
+  background-color: #333952;
+}
+
+.dark-mode section .container .flex-container .overview-card {
+  background-color: #252a41;
+}
+
+.dark-mode section .container .flex-container .overview-card .count {
+  color: white;
+}
+
+.icon-user img {
+  margin-right: 8px;
+}
+
+.icon-user .username {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.total-count {
+  color: #1e202a;
+  font-size: 55px;
+  font-weight: 700;
+  margin: 16px 0 0px 0;
+}
+
+.follower-subs {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 12px;
+  text-align: center;
+  margin: 0px 0 23px 0;
+}
+
+.day-count {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1db489;
+}
+
+.day-count-red {
+  color: #dc414c;
+}
+
+header {
+  padding: 0 20px;
+  background-color: #f5f7ff;
+  padding-top: 17px;
+  padding-bottom: 151px;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #1e202a;
+  margin-bottom: 0;
+}
+
+header .tagline {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+header .flex-container > :last-child {
+  align-items: center;
+  display: flex;
+  margin-top: 14px;
+}
+
+header .flex-container > :last-child p {
+  font-size: 13px;
+  margin-right: 13px;
+  font-weight: 700;
+  color: #63687e;
+}
+
+section {
+  padding: 0 20px;
+  position: relative;
+  top: -105px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.flex-container .center-text {
+  text-align: center;
+}
+
+.flex-container #facebook {
+  border-top: 4px solid #198ff5;
+}
+
+.flex-container #twitter {
+  border-top: 4px solid #1ca0f2;
+}
+
+.flex-container #instagram {
+  border-top: 4px solid transparent;
+  background-clip: padding-box;
+}
+
+.flex-container #instagram::before {
+  position: absolute;
+  top: -4px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  background: linear-gradient(to right, #fdc468, #df4996);
+  content: '';
+  z-index: -1;
+  border-radius: 6px;
+}
+
+.flex-container #youtube {
+  border-top: 4px solid #c4032a;
+}
+
+.flex-container .card {
+  width: 185px;
+  padding: 29px 35px 23px 35px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  background-color: #f0f2fa;
+}
+
+.flex-container .card .icon-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover {
+  background-color: #e7e5f9;
+}
+
+.overview-card:hover {
+  background-color: #e7e5f9;
+}
+
+.overview-card {
+  width: 200px;
+  padding: 29px 30px 20px 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  background-color: #f5f7ff;
+}
+
+.overview-card .overview-heading-icon {
+  margin-bottom: 23px;
+}
+
+.overview-card .overview-heading-icon .overview-heading {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.overview-card .count-percentage .count {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e202a;
+}
+
+.overview-card .count-percentage .percentage {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1db489;
+  position: absolute;
+  right: 29px;
+  bottom: 19px;
+}
+
+.overview-card .count-percentage .day-count-red {
+  color: #dc414c;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, #378fe6, #3eda82);
+  transition: .0s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 4px;
+  background-color: white;
+  transition: .2s;
+}
+
+input:checked + .slider {
+  background: #aeb3cb;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #aeb3cb;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+input:checked + .slider:hover {
+  background: linear-gradient(to right, #378fe6, #3eda82);
+}
+
+@media only screen and (max-width: 768px) {
+  input:checked + .slider {
+    background: #aeb3cb !important;
+  }
+  header {
+    padding: 0 25px;
+    background-color: #f5f7ff;
+    padding-top: 19px;
+    padding-bottom: 67px;
+  }
+  header .container .flex-container .mobile-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  header .container .flex-container > :first-child {
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #63687e;
+  }
+  header .container .flex-container > :first-child h1 {
+    font-size: 24px;
+  }
+  section {
+    padding: 0 25px;
+    top: -38px;
+  }
+  section .container .flex-container .card {
+    width: 100%;
+  }
+  section .container .flex-container .overview-card {
+    width: 100%;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}

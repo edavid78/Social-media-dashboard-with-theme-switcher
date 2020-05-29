@@ -129,7 +129,7 @@ section {
   color: $very-dark-blue-text;
   font-size: 55px;
   font-weight: map-get($font-weights , "bold");
-  margin: 16px 0 0px 0;
+  margin: 2px 0 0px 0;
 }
 
 .follower-subs {
@@ -233,7 +233,7 @@ section {padding: 0 20px;
     }
     .card {
         width: 185px;
-        padding: 29px 35px 23px 35px;
+        padding: 15px 35px 23px 35px;
         margin-bottom: 25px;
         border-radius: 5px;
         position: relative;
@@ -262,7 +262,7 @@ section {padding: 0 20px;
         border-radius: 5px;
         position: relative;
         cursor: pointer;
-        background-color: $very-pale-blue-top-bg;
+        background-color: $light-grayish-blue-card-bg;
 
       .overview-heading-icon {
         margin-bottom: 23px;

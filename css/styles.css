@@ -77,7 +77,7 @@ body {
   color: #1e202a;
   font-size: 55px;
   font-weight: 700;
-  margin: 16px 0 0px 0;
+  margin: 2px 0 0px 0;
 }
 
 .follower-subs {
@@ -190,7 +190,7 @@ section {
 
 .flex-container .card {
   width: 185px;
-  padding: 29px 35px 23px 35px;
+  padding: 15px 35px 23px 35px;
   margin-bottom: 25px;
   border-radius: 5px;
   position: relative;
@@ -219,7 +219,7 @@ section {
   border-radius: 5px;
   position: relative;
   cursor: pointer;
-  background-color: #f5f7ff;
+  background-color: #f0f2fa;
 }
 
 .overview-card .overview-heading-icon {
